@@ -5,7 +5,10 @@ from pathlib import Path
 
 import typer
 
-# Assuming OPENAI_API_KEY is set in the environment
+# Load environment variables from .env file
+from dotenv import load_dotenv
+load_dotenv()
+
 from langchain_openai import ChatOpenAI
 
 from src.builder.service import BuilderService
