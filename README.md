@@ -34,7 +34,7 @@ npm run build
 
 ```bash
 cd workflows
-uv sync
+uv pip install . # or uv sync
 playwright install chromium
 cp .env.example .env
 ```
