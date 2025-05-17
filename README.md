@@ -20,6 +20,7 @@
 
 ```bash
 git clone https://github.com/browser-use/workflow-use
+cd workflow-use
 ```
 
 ## Build the extension
